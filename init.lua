@@ -1,0 +1,10 @@
+require("plugins.lazy")
+require("plugins.keymaps")
+require("plugins.options")
+require("plugins.none-ls")
+require("keymaps")
+require("options")
+require("plugins.compile")
+require('lualine').setup()
+vim.cmd("colorscheme embark")
+
