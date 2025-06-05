@@ -153,6 +153,6 @@ require('lazy').setup({
   },
   {
     "genzyy/embark-lua.nvim",
-    name = "embark",
+    name = "embark", --вот ембарк я идиот
   },
 })
