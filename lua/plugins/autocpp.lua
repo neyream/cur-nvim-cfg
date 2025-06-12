@@ -12,6 +12,8 @@ vim.api.nvim_create_autocmd("BufNewFile", {
 				"#include <set>",
         "#include <unordered_set>",
         "#include <iomanip>",
+        "#include <deque>",
+        "#include <queue>",
         " ",
 				"using namespace std;",
 				"",
