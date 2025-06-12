@@ -13,3 +13,5 @@ vim.keymap.set('n', '<leader>fo', ':Telescope oldfiles<cr>')
 vim.keymap.set({'n', 'v'}, '<leader>/', ':CommentToggle<cr>')
 -- formatting
 vim.keymap.set('n', '<leader>fmd', vim.lsp.buf.format)
+
+vim.keymap.set('n', '<leader>ccw', ':BufferLinePickClose<cr>')
