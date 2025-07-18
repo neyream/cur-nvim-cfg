@@ -5,18 +5,7 @@ vim.api.nvim_create_autocmd("BufNewFile", {
 		if vim.fn.line("$") == 1 and vim.fn.getline(1) == "" then
 			-- Шаблонный код
 			local template = {
-				"#include <iostream>",
-				"#include <vector>",
-				"#include <algorithm>",
-				"#include <unordered_map>",
-				"#include <set>",
-        "#include <unordered_set>",
-        "#include <iomanip>",
-        "#include <deque>",
-        "#include <queue>",
-        "#include <map>",
-        "#include <cmath>",
-        "#include <random>",
+				"#include <bits/stdc++.h>",
         "",
 				"using namespace std;",
 				"",
