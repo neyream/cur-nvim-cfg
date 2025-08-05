@@ -9,7 +9,7 @@ require("plugins.dap")
 require("plugins.autocpp")
 require("keymaps")
 require("options")
-
+require('competitest').setup()
 require('lualine').setup()
 vim.cmd("colorscheme embark")
 
