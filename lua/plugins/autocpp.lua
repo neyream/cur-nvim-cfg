@@ -10,6 +10,7 @@ vim.api.nvim_create_autocmd("BufNewFile", {
         "using namespace std;",
         "",
         "#define ll long long",
+        "#define ld long double",
         "#define uscor ios::sync_with_stdio(0); cin.tie(0); cout.tie(0);",
         "#define mod7 int(1e9 + 7)",
         "#define mod9 int(1e9 + 9)",
